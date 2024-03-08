@@ -209,13 +209,10 @@ def proc_bad():
 #     start = 0
 #     end = len(signal)
 #     count = len(memory_bank)
-#     # 创建一个空列表存放结果
 #     result_list = []
 #     while len(result_list) < count:
-#         # 生成一个在指定范围内的随机正整数
 #         num = random.randint(start, end)
 #         if num not in result_list:
-#             # 如果该数字还未被添加到结果列表中，则将其添加进去
 #             result_list.append(num)
 #     bad_imgs = temp_x[result_list]
 #     return
